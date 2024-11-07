@@ -1,4 +1,4 @@
-module github.com/K-Phoen/sdk
+module github.com/EthenQ/sdk
 
 go 1.19
 

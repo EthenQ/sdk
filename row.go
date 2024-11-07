@@ -32,6 +32,10 @@ type Row struct {
 
 var lastPanelID uint
 
+func (r *Row) ResetLastPanelID() {
+	lastPanelID = 0
+}
+
 func (r *Row) Add(panel *Panel) {
 	lastPanelID++
 	panel.ID = lastPanelID
