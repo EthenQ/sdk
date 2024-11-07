@@ -32,7 +32,7 @@ type Row struct {
 
 var lastPanelID uint
 
-func (r *Row) ResetLastPanelID() {
+func ResetLastPanelID() {
 	lastPanelID = 0
 }
 
